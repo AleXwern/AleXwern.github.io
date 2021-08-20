@@ -24,7 +24,7 @@
     </tr>
     <tr ng-repeat="(name, effects) in formattedSkillData">
         <th colspan="2" > {{name}} </th>
-        <td colspan="{{getValue(count)}}" ng-if="getValue(count) != 0" ng-repeat="(value, count) in effects" ng-class="{'selected' : skillAllocation[selectedSkill] != 0 && (((false) && skillLevelIndex[name][skillAllocation[selectedSkill] - 1] == $index) || (((boost == true && name != 'TP Cost' && skillLevelIndex[name][skillAllocation[selectedSkill] + 4] == $index) || (boost == true && name == 'TP Cost' && skillLevelIndex[name][skillAllocation[selectedSkill] - 1] == $index))))}">{{getKey(count)}}</td>
+        <td colspan="{{getValue(count)}}" ng-if="getValue(count) != 0" ng-repeat="(value, count) in effects" ng-class="{'selected' : skillAllocation[selectedSkill] != 0}">{{getKey(count)}}</td>
     </tr>
     <tr>
         <td class="table-bottom" colspan="{{3 + skills[selectedSkill].MaxLevel - 1}}"></td>

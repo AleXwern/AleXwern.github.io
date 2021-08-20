@@ -94,7 +94,6 @@
 		"Name": "Swords",
 		"Description": "Increase damage dealt with swords.",
 		"Type": "Passive",
-		"Downstream": {},
 		"MaxLevel": 10,
 		"Location": { "x":1, "y": 1},
 		"LevelData": {
@@ -106,7 +105,6 @@
 		"Description": "When physical damage is taken, there's a chance of reflecting damage back to attacker\nDamage is reflected even when damage is nullified eg. Painless and current weapon is used for\ndamage type",
 		"Type": "Passive",
 		"Upstream": {"Axes": 8, "Swords": 8},
-		"Downstream": {},
 		"MaxLevel": 5,
 		"Location": { "x":2, "y": 0},
 		"LevelData": {
@@ -119,7 +117,6 @@
 		"Description": "Normal weapon attacks have a chance of hitting twice.",
 		"Type": "Passive",
 		"Upstream": {"Axes": 5, "Swords": 5},
-		"Downstream": {},
 		"MaxLevel": 10,
 		"Location": { "x":2, "y": 1},
 		"LevelData": {
