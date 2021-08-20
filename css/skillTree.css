@@ -11,7 +11,7 @@ body {
 }
 
 .header::before {
-    background-image: url(../EO1/Etrian_Odyssey_logo.png);
+    background-image: url(../EO2/Etrian_Odyssey_logo.png);
 }
 
 img {
@@ -78,7 +78,7 @@ input:checked ~ .custom-checkbox:after {
 }
 
 select {
-    background: url(../EO1/images/dropdown.png) no-repeat 94% 0;
+    background: url(../EO2/images/dropdown.png) no-repeat 94% 0;
     background-color: #a4b4f9;
     width: 100%;
     font-size: 16px;
